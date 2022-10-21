@@ -20,6 +20,7 @@ body {
 	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
 	background-size: 100% 100%;
 	mix-blend-mode: difference;
+  
 	}
 
 
@@ -28,6 +29,7 @@ body {
     font-size: large;
     color: oldlace;
     margin-left: 20px;
+    text-align: center;
   }
 
   .form-group{
@@ -35,6 +37,7 @@ body {
     font-size: large;
     color: oldlace;
     margin-left: 20px;
+    text-align: center;
   }
   
 h1{
@@ -45,7 +48,7 @@ h1{
   padding-right: 50px;
   margin-top: 20px;
   box-sizing: border-box;
-  color: brown;
+  color: oldlace;
   
 }
 
@@ -54,6 +57,7 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
   margin-left: 20px;
+  text-align: center;
 }
 
 .question2{
@@ -61,6 +65,7 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
   margin-left: 20px;
+  text-align: center;
 }
 
 .queston3{
@@ -68,6 +73,7 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
   margin-left: 20px;
+  text-align: center;
 }
 
 .question4{
@@ -75,6 +81,7 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
   margin-left: 20px;
+  text-align: center;
 
 }
 
@@ -83,6 +90,7 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
   margin-left: 20px;
+  text-align: center;
 }
 
 .btn{
@@ -90,5 +98,9 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
   font-size: large;
+  border-radius: 20px;
+  border: 100px;
+  text-align: center;
+  margin-left: 500px;
 
 }
