@@ -1,3 +1,4 @@
+
 # _Programming Language Suggester_
 
 #### By _ Brandon James Fenk_
@@ -12,13 +13,13 @@
 
 ## Description
 
-_I made a Website that helps users fine a programming language to start working on first on their programming career. _
+_I made a Website that helps users fine a programming langueage that is right for the them. _
 
 ## Setup/Installation Requirements
 
 * _There are no set up, or installation requirements_
 
-_Everything on the user interface works fine. Having problems getting my JS functions to work with the submit button to to display a message._
+_Everything on the user interface works fine. Having problems getting my Javascript functions to work with the submit button to to display a message._
 
 ## Known Bugs
 
