@@ -1,0 +1,11 @@
+#suggestion1, #suggestion2, #suggestion3 {
+  display: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: x-large;
+  background-color: bisque;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: ;
+}
