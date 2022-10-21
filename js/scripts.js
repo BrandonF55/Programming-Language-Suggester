@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $("form#suggestion-form").submit(function(event) {
+(document).ready function() {
+  ("form#suggestion-form").submit(function(event) {
     event.preventDefault();
     const name = $("#name").val();
     const age = parseInt($("#age").val());

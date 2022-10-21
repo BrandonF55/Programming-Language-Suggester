@@ -2,7 +2,7 @@
   display: none;
   font-family: Georgia, 'Times New Roman', Times, serif;  
   font-size: x-large;
-  background-color: bisque;
+  background-color: oldlace;
 }
 
 
@@ -29,48 +29,54 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     color: oldlace;
+    margin-left: 20px;
   }
 
   .form-group{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     color: oldlace;
-
+    margin-left: 20px;
   }
   
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  border: 20px;
+  border: 50px;
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 20px;
   box-sizing: border-box;
+  color: brown;
+  
 }
 
 .question1{
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
+  margin-left: 20px;
 }
 
 .question2{
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
+  margin-left: 20px;
 }
 
 .queston3{
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
-
+  margin-left: 20px;
 }
 
 .question4{
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
+  margin-left: 20px;
 
 }
 
@@ -78,4 +84,13 @@ h1{
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: oldlace;
+  margin-left: 20px;
+}
+
+.btn{
+  margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: large;
+
 }
