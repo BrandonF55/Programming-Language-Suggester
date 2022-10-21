@@ -1,7 +1,7 @@
 
 # _Programming Language Suggester_
 
-#### By _ Brandon James Fenk_
+#### By _ Brandon JamesFenk_
 
 #### _ Programming Language Suggester Website that helps the user decide what programming language to start with first!_
 
@@ -27,6 +27,6 @@ _Everything on the user interface works fine. Having problems getting my Javascr
 
 MIT
 
-_There is a issue with the sumbit button and JS. I can't the message to appear after the button has been submited._
+_There is a issue with the sumbit button and JS. I can't the message to appear after the button has been submited. I'm still running to issues with configeration of my code on javascript._
 
 Copyright (c) _10/21/22_ _Brandon Fenk_

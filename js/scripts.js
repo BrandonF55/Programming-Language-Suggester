@@ -3,23 +3,22 @@
     function findingPL ();{
       Event.preventDefault();
     }
-        Event.preventDefault();
         const name = ("#name").value();
         const age = parseInt(("#age").value());
-        const answer1 = document.getElementById('question1').value();
-        const answer2 = document.getElementById('question2').value();
-        const answer3 = document.getElementById('question3').value();
-        const answer4 = document.getElementById('question4').value();
+        const answer1 = document.getElementById('#question1').value();
+        const answer2 = document.getElementById('#question2').value();
+        const answer3 = document.getElementById('#question3').value();
+        const answer4 = document.getElementById('#question4').value();
+
         
-        if (#name.length === 0) {
+        if (#name === age 0) {
           alert('Please provide your name.');
-        } else if (!age > 0) {
+        } else if (age > 0) {
           alert('Please provide your age.');
         } else if (answer1 === "yes") {
-           ("#suggestion1").slideDown();
+    
         } else if (answer3 === "yes" && answer4 === "yes"){
-           ("#suggestion2").slideDown();
+          
         } else { 
-           ("#suggestion3").slideDown();
         };
     
