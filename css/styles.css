@@ -1,44 +1,44 @@
-#suggestion1, #suggestion2, #suggestion3 {
+.hidden {
   display: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: x-large;
   background-color: black;
 }
 
 html {
-	background-color: red;
-	background-image: url(https://www.cicnews.com/wp-content/uploads/2022/08/20220830canada.jpg.webp);
-	background-size: 100% auto;
-	background-position: top center;
-	background-attachment: fixed;
-	}
+  background-color: red;
+  background-image: url(https://www.cicnews.com/wp-content/uploads/2022/08/20220830canada.jpg.webp);
+  background-size: 100% auto;
+  background-position: top center;
+  background-attachment: fixed;
+}
 
 body {
-	height: 100%;
-	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
-	background-size: 100% 100%;
-	mix-blend-mode: difference;
-  
-	}
-  
+  height: 100%;
+  background-image: linear-gradient(hsl(10, 90, 66), transparent 70%);
+  background-size: 100% 100%;
+  mix-blend-mode: difference;
 
-  .container{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    color: black;
-    margin-left: 20px;
-    text-align: center;
-  }
+}
 
-  .form-group{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    color: black;
-    margin-left: 20px;
-    text-align: center;
-  }
-  
-h1{
+
+.container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.form-group {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+}
+
+h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   border: 50px;
@@ -47,10 +47,10 @@ h1{
   margin-top: 20px;
   box-sizing: border-box;
   color: black;
-  
+
 }
 
-.question1{
+.question1 {
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
@@ -58,7 +58,7 @@ h1{
   text-align: center;
 }
 
-.question2{
+.question2 {
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
@@ -66,7 +66,7 @@ h1{
   text-align: center;
 }
 
-.queston3{
+.queston3 {
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
@@ -74,7 +74,7 @@ h1{
   text-align: center;
 }
 
-.question4{
+.question4 {
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
@@ -83,7 +83,7 @@ h1{
 
 }
 
-.End{
+.End {
   font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
@@ -91,7 +91,7 @@ h1{
   text-align: center;
 }
 
-.btn{
+.btn {
   margin-left: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
@@ -100,4 +100,18 @@ h1{
   border: 100px;
   margin-left: 200px;
 
+}
+
+#suggestion1 {
+  text-align: center;
+  font-size: large;
+  font-weight: 900;
+  color: aliceblue;
+}
+
+#suggestion2 {
+  text-align: center;
+  font-size: large;
+  font-weight: 900;
+  color: aliceblue;
 }

@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <script src="js/scripts.js" ></script>
+  <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/styles.css">
   <title>Proramming Language Suggester</title>
 </head>
-<body>
-<h1>Programming Language Suggester</h1>
 
-<form id="Suggestion-form"></form>
+<body>
+  <h1>Programming Language Suggester</h1>
+
   <div class="container">
-  <form id="Suggestion-form">
-    <label for="name"> Please Provide Your Name.:</label>
-    <input placeholder="Enter Name Here!" type="text" class="form-control" id="name">
+    <form id="suggestion-form">
+      <label for="name"> Please Provide Your Name.:</label>
+      <input placeholder="Enter Name Here!" type="text" class="form-control" id="name">
   </div>
   <br>
-<div class="form-group">
-<label for="age"> Please Provide Your Age.: </label>
-<input placeholder="Enter Age here!" type="text" class="form-control" id="age">
-</div>
-<br>
-<div class="question1">
-  <label for="question-1">Do You Enjoy Plaiing Video Games?
-    <input type="radio" name="question1" value="yes" checked> yes
-    <input type="radio" name="question1" id="no"> no
-  </label>
-</div>
-<br>
-<div class="question2">
-  <label for="question-2"> Ever Had a Eye for design?.
-    <input type="radio" name="question-2" value="yes"> yes
-    <input type="radio" name="question-2" value="no"> no
-  </label>
-</div>
-<br>
-<div class="queston3">
-  <label for="question-3"> Do you enjoy Robotics?. 
-    <input type="radio" name="question-3" value="yes"> yes
-    <input type="radio" name="question-3" value="no"> no
-</label>
-</div>
-<br>
-<div class="question4">
-<label for="question-4"> Do You Have Any Exerience In Coding?
-  <input type="radio" name="question4" value="yes"> yes
-  <input type="radio" name="question4" value="no"> no
-</label>
-</div> 
-<br>
-<button type="submit" class="btn">Submit</button>
-</form>
-<br>
-<div id="suggestion1">
-  <p>Dear <span class="user_name"></span>,<br>As you like to play games, my suggestion is to choose C# as the first programming language to learn. For a career in video creation.
-  </p>
-</div>
-<div id="suggestion2">
-  <p>Dear <span class="user_name"></span>,<br> I Believe Python will be a great choice for you.
-  </p>
-</div>
-<div id="suggestion3">
-  <p>Dear <span class="user_name"></span>,<br>We suggest you to choose JavaScript, HTML and CSS as the first programming languages to learn. You will be able to create beautiful sites.
-  </p>
-</div>
-<p class="End">Thank You For Taking Part In My Programming Language Suggester,
-  I hope its been Helpful on choosing your first programming language. Have a great day!</p>
-  
-</div>
+  <div class="form-group">
+    <label for="age"> Please Provide Your Age.: </label>
+    <input placeholder="Enter Age here!" type="text" class="form-control" id="age">
+  </div>
+  <br>
+  <div class="question1">
+    <label for="question-1">Do You Enjoy Plaiing Video Games?
+      <input type="radio" name="question-1" value="yes" checked="checked"> yes
+      <input type="radio" name="question-1" id="no" value="no"> no
+    </label>
+  </div>
+  <br>
+  <div class="question2">
+    <label for="question-2"> Ever Had a Eye for design?.
+      <input type="radio" name="question-2" value="yes" checked="checked"> yes
+      <input type="radio" name="question-2" value="no"> no
+    </label>
+  </div>
+  <br>
+  <div class="queston3">
+    <label for="question-3"> Do you enjoy Robotics?.
+      <input type="radio" name="question-3" value="yes" checked="checked"> yes
+      <input type="radio" name="question-3" value="no"> no
+    </label>
+  </div>
+  <br>
+  <div class="question4">
+    <label for="question-4"> Do You Have Any Exerience In Coding?
+      <input type="radio" name="question-4" value="yes" checked="checked"> yes
+      <input type="radio" name="question-4" value="no"> no
+    </label>
+  </div>
+  <br>
+  <button type="submit" class="btn">Submit</button>
+  </form>
+  <br>
+  <div id="suggestion1" class="hidden">
+    <p>Dear <span class="user_name"></span>,
+      <br>As you like to play games, my suggestion is to choose C# as the first programming language to learn. For a
+      career in video creation.
+    </p>
+  </div>
+  <div id="suggestion2" class="hidden">
+    <p>Dear <span class="user_name"></span>,
+      <br> I Believe Python will be a great choice for you.
+    </p>
+  </div>
+  <div id="suggestion3" class="hidden">
+    <p>Dear <span class="user_name"></span>,
+      <br>We suggest you to choose JavaScript, HTML and CSS as the first programming languages to learn. You will be
+      able to create beautiful sites.
+    </p>
+  </div>
+  <div class="hidden" id="refreshButton">
+    <button type="refresh">Reset Page</button>
+  </div>
+
+  </div>
 </body>
+
 </html>

@@ -1,35 +1,31 @@
 
-    
-    function findingPL() {
-      let form = document.getElementById('#Suggestion-form');
-        form.onsubmit = function(event) {
-          event.preventDefault();
-        
-        const name = ("#name").value();
-        const age = parseInt(("#age").value());
-        const answer1 = document.querySelector('#question1').value();
-        const answer2 = document.querySelector('#question2').value();
-        const answer3 = document.querySelector('#question3').value();
-        const answer4 = document.querySelector('#question4').value();
+function findingPL(event) {
+  event.preventDefault();
 
-        
-        if (name === age) {
-          alert('Please provide your name.');
-        } else if (age > 0) {
-          alert('Please provide your age.');
-        } else if (answer1 === "yes") {
-          document.querySelector('#suggestion1');
-        } else if (answer2 === "yes") {
-          document.querySelector('#suggestion2');
-        } else if (answer3 === "yes") {
-          document.querySelector('#suggestion3');
-        } else (answer4 === "yes") {
-          document.querySelector('#suggestion4');
-        }
-       }  
+  const answer1 = document.querySelector('input[name="question-1"]:checked').value;
+  const answer2 = document.querySelector('input[name="question-2"]:checked').value;
+  const answer3 = document.querySelector('input[name="question-3"]:checked').value;
+  const answer4 = document.querySelector('input[name="question-4"]:checked').value;
 
-      }
-    
-   
-        
-    findingPL();
+  const suggestion1 = document.querySelector('#suggestion1');
+  const suggestion2 = document.querySelector('#suggestion2');
+  const suggestion3 = document.querySelector('#suggestion3');
+
+
+  suggestion1.setAttribute('class', 'hidden');
+  suggestion2.setAttribute('class', 'hidden');
+
+
+  if (answer1 === "yes" && answer2 === 'yes' && answer3 === 'yes' && answer4 === 'yes') {
+    suggestion1.removeAttribute('class', 'hidden');
+  } else if (answer1 === "no" && answer2 === 'no' && answer3 === 'no' && answer4 === 'no') {
+    suggestion2.removeAttribute('class', 'hidden');
+  }
+}
+
+window.addEventListener('load', function () {
+  const form = document.getElementById('suggestion-form');
+  form.addEventListener('submit', findingPL);
+});
+
+
