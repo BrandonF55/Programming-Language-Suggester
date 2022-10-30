@@ -27,6 +27,6 @@ _Everything on the user interface works fine. Having problems getting my Javascr
 
 MIT
 
-_There is a issue with the sumbit button and JS. I can't the message to appear after the button has been submited. I'm still running to issues with configeration of my code on javascript._
+_Was able to solve the problem with the JS and HTML_
 
 Copyright (c) _10/21/22_ _Brandon Fenk_
